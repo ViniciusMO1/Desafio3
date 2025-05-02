@@ -1,5 +1,12 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center ;
-  text-decoration: overline;
+  text-decoration: underline;
 }
+h1{
+color:#4A90D1;
+}
+input{
+  margin: 5px;
+  padding: 8px;
+} 
