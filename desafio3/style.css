@@ -1,7 +1,7 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center ;
-  text-decoration: underline;
+  text-decoration: center;
 }
 h1{
 color:#4A90D1;
@@ -10,3 +10,10 @@ input{
   margin: 5px;
   padding: 8px;
 } 
+button {
+  background-color: #4A90E2;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
