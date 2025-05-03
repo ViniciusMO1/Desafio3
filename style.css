@@ -1,0 +1,80 @@
+/* Configuração geral */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #1e1e2f, #282845);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilizando o título */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+/* Área de entrada de texto */
+input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  background: #FFD700;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FFC300;
+}
+
+/* Lista de livros */
+#lista-livros {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.15);
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+/* Botões dentro da lista */
+li button {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+
