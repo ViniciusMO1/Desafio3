@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
- 
+    <script>
+      // Se o usuário não estiver logado, redireciona para a tela de login
+      //  Isso garante que apenas usuários logados possam acessar a página principal!
+
+      if (!localStorage.getItem("usuarioLogado")) {
+          window.location.href = "login.html";
+      }
+  </script>
 </head>
 <body>
   <h1>LISTA COM MEUS LIVROS FAVORITOS </h1>
