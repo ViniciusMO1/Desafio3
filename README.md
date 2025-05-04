@@ -17,7 +17,7 @@ Importei o "BaseModel" do pydantic para uma melhor validação dos dados,
 conversão inteligente e melhor estruturação dos dados
 
 ### -Para deixar o CRUD funcional tive que adicionar os seguintes caminhos e funcionalidades:
-- Criar a rota para adcionar os livros
+- Criar a rota para adicionar os livros
 - Listar os livros cadastrados
 - Editar um livro existente
 - Excluir um livro
